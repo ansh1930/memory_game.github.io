@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game_info">
+            <h1>Memory game</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="time_filp">
+                        <div class="time">
+                            Time <span id="time_to">0 min 0 secs</span>
+                        </div>
+                        <div class="flip">
+                            flip <span id="flip_to">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="main_card">
+                    </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Congratulations 🎉</h2>
+                            <a class="close" href=# >×</a>
+                            <div class="content-1">
+                                Congratulations you're a winner 🎉🎉
+                            </div>
+                            <div class="content-2">
+                                <p>You made <span id=finalMove> </span> moves </p>
+                                <p>in <span id=totalTime> </span> </p>
+                                <p>Rating:  <span id=starRating></span></p>
+                            </div>
+                            <button id="play-again"onclick="playAgain()">
+                                Play again 😄</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+
+        </div>
+    </div>
+</body>
+<script src="client.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</html>
